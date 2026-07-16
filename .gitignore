@@ -104,3 +104,7 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# TextMeshPro's optional sample content (fonts, example scenes/materials) — not used by this
+# project; only Fonts/Resources/Shaders (the actual runtime essentials) are committed.
+/[Aa]ssets/TextMesh Pro/Examples & Extras*

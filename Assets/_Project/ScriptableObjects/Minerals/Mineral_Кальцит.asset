@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd83ce00a71c86e4fa387554072f3e17, type: 3}
+  m_Name: "Mineral_\u041A\u0430\u043B\u044C\u0446\u0438\u0442"
+  m_EditorClassIdentifier: Assembly-CSharp::LastVein.Data.MineralData
+  id: "\u041A\u0430\u043B\u044C\u0446\u0438\u0442"
+  displayName: "\u041A\u0430\u043B\u044C\u0446\u0438\u0442"
+  fact: "\u041D\u0430\u0439\u043F\u043E\u0448\u0438\u0440\u0435\u043D\u0456\u0448\u0438\u0439
+    \u043A\u0430\u0440\u0431\u043E\u043D\u0430\u0442\u043D\u0438\u0439 \u043C\u0456\u043D\u0435\u0440\u0430\u043B,
+    \u043E\u0441\u043D\u043E\u0432\u0430 \u0432\u0430\u043F\u043D\u044F\u043A\u0443."
+  era: 1
+  placeholderColor: {r: 0.75, g: 0.74, b: 0.68, a: 1}
+  sprite: {fileID: 0}

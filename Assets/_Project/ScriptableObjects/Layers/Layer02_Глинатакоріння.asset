@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d91ce556603a5f048bc4a186b86bd0b5, type: 3}
+  m_Name: "Layer02_\u0413\u043B\u0438\u043D\u0430\u0442\u0430\u043A\u043E\u0440\u0456\u043D\u043D\u044F"
+  m_EditorClassIdentifier: Assembly-CSharp::LastVein.Data.LayerData
+  layerIndex: 2
+  displayName: "\u0413\u043B\u0438\u043D\u0430 \u0442\u0430 \u043A\u043E\u0440\u0456\u043D\u043D\u044F"
+  era: 0
+  baseHealth: 38
+  blocksToAdvance: 13
+  paletteColor: {r: 0.55, g: 0.4, b: 0.28, a: 1}
+  minerals:
+  - mineral: {fileID: 11400000, guid: 668fe0d7a90230b47b6f7e8ea444f205, type: 2}
+    weight: 1
+  - mineral: {fileID: 11400000, guid: 16592d7e6aa3cd44988ab9b47d241078, type: 2}
+    weight: 1
+  - mineral: {fileID: 11400000, guid: fab87728809108f4d884e963279fb900, type: 2}
+    weight: 1

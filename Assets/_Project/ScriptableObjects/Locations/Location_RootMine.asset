@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db704cfce6cd5aa499acc76bb6428aed, type: 3}
+  m_Name: Location_RootMine
+  m_EditorClassIdentifier: Assembly-CSharp::LastVein.Data.LocationData
+  id: RootMine
+  displayName: "\u041A\u043E\u0440\u0435\u043D\u0435\u0432\u0430 \u0448\u0430\u0445\u0442\u0430"
+  layers:
+  - {fileID: 11400000, guid: ef29520c132202a439c5fca6f3d1a16d, type: 2}
+  - {fileID: 11400000, guid: d529e2743f89bfa428df56c08667f5dd, type: 2}
+  - {fileID: 11400000, guid: c1889d6193568d049901b8a9b2a46f12, type: 2}
+  - {fileID: 11400000, guid: 7e465807a146dbe41ba6b6d749d4b10d, type: 2}
+  - {fileID: 11400000, guid: 4b509b1a6c83a5e48883f38ca044a089, type: 2}
+  - {fileID: 11400000, guid: 1f1742534159302468340257f6477a9d, type: 2}
+  - {fileID: 11400000, guid: c0e04be8f1ec2fe43b77499aa968d1f6, type: 2}
+  - {fileID: 11400000, guid: d1bae8fff647d9e48a64c1c6fc88dc6d, type: 2}
+  - {fileID: 11400000, guid: 337c2a2a83d560e4eafd45df374bc8cf, type: 2}
+  - {fileID: 11400000, guid: f43e9da0e6a38194cae8dad41a322be4, type: 2}
+  locationMineralPool: []
