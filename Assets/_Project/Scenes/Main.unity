@@ -2188,7 +2188,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 39.345856, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3448,6 +3448,17 @@ MonoBehaviour:
   currentLocation: {fileID: 11400000, guid: 5afbfefb40d9e0c4bb53f87466f5f417, type: 2}
   pickaxeConfig: {fileID: 11400000, guid: b394d1aa2e5e1c042a5ae0a00d1e6a69, type: 2}
   gnomeConfig: {fileID: 11400000, guid: 97aef331fc6f2d643a1bcf5c3c1d5c11, type: 2}
+  balanceConfig: {fileID: 11400000, guid: 13565b58f8d9d364a85873a424011868, type: 2}
+  currentOre: 0
+  currentClickPower: 0
+  pickaxeLevel: 0
+  nextPickaxePrice: 0
+  gnomeCount: 0
+  nextGnomePrice: 0
+  incomePerSecond: 0
+  currentLayerName: 
+  blockCurrentHealth: 0
+  blockMaxHealth: 0
 --- !u!1 &1056349944
 GameObject:
   m_ObjectHideFlags: 0
@@ -4713,7 +4724,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 37.70645, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5450,10 +5461,10 @@ RectTransform:
   - {fileID: 710234237}
   m_Father: {fileID: 1274936942}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 941.12, y: -550.83}
-  m_SizeDelta: {x: 1882.2, y: 1101.7}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.010009766, y: 0.010009766}
+  m_SizeDelta: {x: -0.02002, y: 0.019897}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1800289322
 MonoBehaviour:

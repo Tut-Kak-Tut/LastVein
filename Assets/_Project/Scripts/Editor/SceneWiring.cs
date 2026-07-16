@@ -20,6 +20,7 @@ namespace LastVein.EditorTools
         const string LocationPath = "Assets/_Project/ScriptableObjects/Locations/Location_RootMine.asset";
         const string PickaxeConfigPath = "Assets/_Project/ScriptableObjects/Upgrades/PickaxeUpgradeConfig.asset";
         const string GnomeConfigPath = "Assets/_Project/ScriptableObjects/Upgrades/GnomeConfig.asset";
+        const string BalanceConfigPath = "Assets/_Project/ScriptableObjects/Balance/BalanceConfig.asset";
         const string MineralCellPrefabPath = "Assets/_Project/Prefabs/UI/MineralCell.prefab";
 
         [MenuItem("LastVein/Wire Main Scene")]
@@ -60,6 +61,7 @@ namespace LastVein.EditorTools
             so.FindProperty("currentLocation").objectReferenceValue = AssetDatabase.LoadAssetAtPath<LocationData>(LocationPath);
             so.FindProperty("pickaxeConfig").objectReferenceValue = AssetDatabase.LoadAssetAtPath<PickaxeUpgradeConfig>(PickaxeConfigPath);
             so.FindProperty("gnomeConfig").objectReferenceValue = AssetDatabase.LoadAssetAtPath<GnomeConfig>(GnomeConfigPath);
+            so.FindProperty("balanceConfig").objectReferenceValue = AssetDatabase.LoadAssetAtPath<BalanceConfig>(BalanceConfigPath);
             so.ApplyModifiedPropertiesWithoutUndo();
 
             return gm;

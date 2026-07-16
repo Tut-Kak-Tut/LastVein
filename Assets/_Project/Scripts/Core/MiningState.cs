@@ -1,15 +1,14 @@
 using System;
 using UnityEngine;
 using LastVein.Data;
+using LastVein.Economy;
 
 namespace LastVein.Core
 {
     public class MiningState
     {
-        const float PerBlockHealthGrowth = 1.10f;
-        const float OreRewardMultiplier = 0.4f;
-
         readonly LocationData location;
+        readonly BalanceConfig balance;
         int currentLayerIndex;
         int blocksBrokenInLayer;
 
@@ -21,9 +20,10 @@ namespace LastVein.Core
         public event Action<double, MineralData> OnBlockBroken; // ore awarded, mineral found
         public event Action<LayerData> OnLayerChanged;
 
-        public MiningState(LocationData location)
+        public MiningState(LocationData location, BalanceConfig balance)
         {
             this.location = location;
+            this.balance = balance;
             SpawnNextBlock();
         }
 
@@ -44,7 +44,7 @@ namespace LastVein.Core
         void BreakBlock()
         {
             LayerData layer = CurrentLayer;
-            double oreAwarded = Math.Ceiling(MaxHealth * OreRewardMultiplier);
+            double oreAwarded = Math.Ceiling(MaxHealth * balance.oreRewardMultiplier);
             MineralData mineral = PickMineral(layer.minerals);
             OnBlockBroken?.Invoke(oreAwarded, mineral);
 
@@ -62,7 +62,7 @@ namespace LastVein.Core
 
         void SpawnNextBlock()
         {
-            MaxHealth = CurrentLayer.baseHealth * Mathf.Pow(PerBlockHealthGrowth, blocksBrokenInLayer);
+            MaxHealth = CurrentLayer.baseHealth * Mathf.Pow(balance.perBlockHealthGrowth, blocksBrokenInLayer);
             CurrentHealth = MaxHealth;
             OnBlockProgress?.Invoke(CurrentHealth, MaxHealth);
         }
